@@ -1,8 +1,8 @@
 s3du
 ======================
 
-s3du_parallel.rb reports disk usage by s3 bucket with multi-processes.
-s3du_paralle.rb gives you the output of usage of all subdirectories within the specified bucket.
+s3du_parallel.rb reports disk usage by s3 bucket with multi-processes.  
+s3du_parallel.rb gives you the output of usage of all subdirectories within the specified bucket.
 
 ##Usage:
 
