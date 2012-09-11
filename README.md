@@ -6,18 +6,18 @@ s3du_paralle.rb gives you the output of usage of all subdirectories within the s
 
 ##Usage:
 
- $ s3du_parallel.rb bucketname [max_depth]
+ `$ s3du_parallel.rb bucketname [max_depth]`
 
 ##Option:
- max_depth  Maxmum depth of the subdirectoriy to summarize; default is 2.
+ max_depth:  Maxmum depth of the subdirectoriy to summarize; default is 2.
 
 ##Setup:
 
- # gem install parallel
- $ cat <<EOF > ~/.s3cfg
- > access_key = [your aws access key]
- > secret_key = [your aws secret access key]
- > EOF
+    # gem install parallel
+    $ cat <<EOF > ~/.s3cfg
+    > access_key = [your aws access key]
+    > secret_key = [your aws secret access key]
+    > EOF
 
 
 License
